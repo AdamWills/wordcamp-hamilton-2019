@@ -1,8 +1,28 @@
-:root {
-  --wc-orange: #e4a518;
-  --wc-black: #030303;
+.site-header {
+	background: url(https://2019.hamilton.wordcamp.org/files/2019/01/2019_HWC_Website_HomePage_Hero_img.jpg) center center;
+	background-size: cover;
+	display: grid;
+	min-height: 100vh;
+	max-height: 1200px;
+	padding: 0;
+	grid-template-rows: auto 1fr;
 }
 
-.site-header {
-  background-color: var(--wc-black);
+.site-header:after {
+  content: '';
+	background: url(https://2019.hamilton.wordcamp.org/files/2019/01/2019_HWC_Website_HomePage_Logo.png);
+	width: 500px;
+	height: 500px;
+	align-self: center;
+  justify-self: center;
+}
+
+.site-header:before {
+  content: none;
+}
+
+.site-branding-container {
+	background: #f6d26f;
+	width: 100%;
+	padding: 0.5rem;
 }
