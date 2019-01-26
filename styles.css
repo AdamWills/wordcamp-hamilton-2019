@@ -1,0 +1,8 @@
+:root {
+  --wc-orange: #e4a518;
+  --wc-black: #030303;
+}
+
+.site-header {
+  background-color: var(--wc-black);
+}
