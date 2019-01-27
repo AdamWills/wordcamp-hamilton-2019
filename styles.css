@@ -66,3 +66,14 @@
 	background: #f6d26f;
 	color: #111;
 }
+
+.widget .sponsor-level {
+	background: white;
+	color: #111;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.widget .sponsor-level-title {
+	margin-top: 0;
+}
