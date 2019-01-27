@@ -47,3 +47,13 @@
 	width: 100%;
 	padding: 0.5rem;
 }
+
+.site-footer {
+	background: #111;
+	color: #fff;
+}
+
+.site-footer input[type="submit"] {
+	background: #f6d26f;
+	color: #111;
+}
