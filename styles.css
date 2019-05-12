@@ -77,3 +77,22 @@
 .widget .sponsor-level-title {
 	margin-top: 0;
 }
+
+.wp-block-table {
+	border: 1px solid grey;
+}
+
+.wp-block-table td {
+	padding: 0.5rem;
+}
+
+.site-header.featured-image
+.site-featured-image
+.post-thumbnail img {
+	object-fit: contain;
+	min-width: auto;
+	width: 50vw;
+	right: auto;
+	left: 50%;
+	transform: translateX(-50%);
+}
