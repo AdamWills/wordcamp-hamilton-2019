@@ -115,8 +115,7 @@
 	word-break: normal;
 }
 
-.wcpt-schedule .global-session.lunch,
-.wcpt-schedule .global.after-party-ye-olde-squire {
+.wcpt-schedule .global-session {
 	background: #f6d26f;
 	font-weight: 700;
 }
