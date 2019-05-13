@@ -96,3 +96,22 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+
+.wcorg-sponsor + .wcorg-sponsor {
+	margin-top: 4rem;
+}
+
+/* schedule */
+.wcpt-track-description,
+.wcpt-session-speakers {
+	display: block;
+}
+
+.wcpt-schedule {
+	max-width: none !important;
+}
+
+.wcpt-schedule .global-session.lunch {
+	background: #f6d26f;
+	font-weight: 700;
+}
