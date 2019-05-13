@@ -111,6 +111,10 @@
 	max-width: none !important;
 }
 
+.wcpt-schedule td {
+	word-break: normal;
+}
+
 .wcpt-schedule .global-session.lunch {
 	background: #f6d26f;
 	font-weight: 700;
